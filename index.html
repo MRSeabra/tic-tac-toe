@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <meta name="description" content="Tic Tac Toe Game">
+    <link rel="shortcut icon" type="image/jpg" href="./images/favicon-32x32.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <main class="container">
+        <div class="game">
+            <div class="logo">
+                <img src="./images/logo.svg" alt="">
+            </div>
+            <div class="choice">
+                <div>
+                    <h1 class="font-1-xs color-p">PICK PLAYER 1’S MARK</h1>
+                </div>
+                <div class="choice-xo">
+                    <ul>
+                        <li>
+                            <button class="btn-choice active" id="btnX">
+                                <div>
+                                    <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                        <path d="M7.501 0.574 16 9.072 24.499 0.574a1.5 1.5 0 0 1 2.122 0l4.806 4.806a1.5 1.5 0 0 1 0 2.122L22.927 16l8.499 8.499a1.5 1.5 0 0 1 0 2.122l-4.806 4.806a1.5 1.5 0 0 1 -2.122 0L16 22.927 7.501 31.427a1.5 1.5 0 0 1 -2.122 0L0.574 26.62a1.5 1.5 0 0 1 0 -2.122L9.072 16 0.574 7.501a1.5 1.5 0 0 1 0 -2.122l4.806 -4.806a1.5 1.5 0 0 1 2.122 0" />
+                                    </svg>
+                                </div>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn-choice" id="btnO">
+                                <div>
+                                    <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                        <path d="M16 0c8.836 0 16 7.163 16 16S24.837 32 16 32 0 24.837 0 16 7.163 0 16 0m0 9.482c-3.6 0 -6.519 2.918 -6.519 6.519S12.4 22.518 16 22.518 22.518 19.6 22.518 16 19.6 9.482 16 9.482" />
+                                    </svg>
+                                </div>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="font-body color-p">REMEMBER : X GOES FIRST</h2>
+                </div>
+            </div>
+            <div class="button-ng">
+                <button class="primary-button-1 font-1-s">NEW GAME (VS CPU)</button>
+                <button class="primary-button-2 font-1-s">NEW GAME (VS PLAYER)</button>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+    <!-- <script type="text/javascript" src="js/jquery/jquery-3.7.1.min.js"></script> -->
+    <script type="text/javascript" src="js/mainjs.js"></script>
+</body>
+
+</html>

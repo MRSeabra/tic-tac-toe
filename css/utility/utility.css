@@ -1,0 +1,19 @@
+button.primary-button-1 {
+  background: var(--a);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button.primary-button-2 {
+  background: var(--v);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button.primary-button-1:hover {
+  background: var(--ac);
+}
+
+button.primary-button-2:hover {
+  background: var(--vc);
+}

@@ -1,0 +1,61 @@
+/* Colors */
+:root {
+  --v: #31c3bd;
+  --vc: #65e9e4;
+  --a: #f2b137;
+  --ac: #ffc860;
+  --aef: #1a2a33;
+  --ae: #1f3641;
+  --p: #a8bfc9;
+  --bc: #dbe8ed;
+}
+
+.color-p {
+  color: var(--p);
+}
+
+/* Fonts */
+.font-1-l {
+  font: 700 2.5rem "Outfit";
+  letter-spacing: 2.5px;
+  /* font-family: Outfit;
+  font-size: 40px;
+  font-weight: 700;
+  */
+}
+
+.font-1-m {
+  font: 700 1.5rem "Outfit";
+  letter-spacing: 1.5px;
+  /* font-family: Outfit;
+    font-size: 24px;
+    font-weight: 700;
+  */
+}
+
+.font-1-s {
+  font: 700 1.25rem "Outfit";
+  letter-spacing: 1.25px;
+  /* font-family: Outfit;
+      font-size: 20px;
+      font-weight: 700;
+    */
+}
+
+.font-1-xs {
+  font: 700 1rem "Outfit";
+  letter-spacing: 1px;
+  /* font-family: Outfit;
+      font-size: 16px;
+      font-weight: 700;
+    */
+}
+
+.font-body {
+  font: 400 0.875rem "Outfit";
+  letter-spacing: 0.8px;
+  /* font-family: Outfit;
+      font-size: 14px;
+      font-weight: 500;
+    */
+}

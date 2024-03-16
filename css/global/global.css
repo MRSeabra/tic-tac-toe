@@ -28,7 +28,7 @@ body {
   padding: 0;
   background: var(--aef);
   -webkit-font-smoothing: antialiased;
-  margin-bottom: 200px;
+  /* margin-bottom: 200px; */
 }
 
 img,
@@ -48,4 +48,24 @@ svg {
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.show {
+  opacity: 1;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.hide {
+  opacity: 0;
+  height: 0px;
+  margin: 0;
+  padding: 0;
+  visibility: hidden;
+}
+
+.hide div {
+  height: 0;
+  margin: 0;
+  padding: 0;
 }

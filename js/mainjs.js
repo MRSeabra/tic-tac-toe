@@ -32,18 +32,12 @@ btns.forEach(function (btn) {
 // user starts the vs cpu game by clicking on the button
 // it is redirected to the game page
 const btnPlayCpu = document.querySelector("#initCpu");
+const gameScreen = document.querySelector(".game");
+const startScreen = document.querySelector(".start");
 
-btnPlayCpu.addEventListener("click", () => {
-  fetch("/game-start.html")
-    .then((response) => response.text())
-    .then((newPageHTML) => {
-      //make it so the browser back button / history works
-      let state = {};
-      let title = "new page title";
-      let url = "game-start.html";
-      history.pushState(state, title, url);
-
-      // swap in the new content
-      document.body.innerHTML = newPageHTML;
-    });
+btnPlayCpu.addEventListener("click", function () {
+  gameScreen.classList.remove("show");
+  gameScreen.classList.add("hide");
+  startScreen.classList.remove("hide");
+  startScreen.classList.add("show");
 });

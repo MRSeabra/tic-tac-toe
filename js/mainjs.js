@@ -15,3 +15,9 @@ function toggleClass(item) {
 btns.forEach(function (btn) {
   btn.addEventListener("click", toggleClass);
 });
+
+const test = document.querySelector(".tac-o");
+
+test.addEventListener("click", () => {
+  console.log("clicou");
+});

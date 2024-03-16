@@ -1,13 +1,13 @@
 button.primary-button-1 {
   background: var(--a);
-  border-radius: 20px;
+  border-radius: 15px;
   cursor: pointer;
   color: var(--aef);
 }
 
 button.primary-button-2 {
   background: var(--v);
-  border-radius: 20px;
+  border-radius: 15px;
   cursor: pointer;
   color: var(--aef);
 }

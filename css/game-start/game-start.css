@@ -141,6 +141,10 @@
   display: none;
 }
 
+.tac-o.hide {
+  display: none;
+}
+
 .tac-o:hover {
   fill: transparent;
 }

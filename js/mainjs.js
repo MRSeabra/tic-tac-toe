@@ -41,3 +41,23 @@ btnPlayCpu.addEventListener("click", function () {
   startScreen.classList.remove("hide");
   startScreen.classList.add("show");
 });
+
+// usuario inicia o jogo vs multiplayer ao clicar no botão
+// ele é redirecionado para a página do jogo
+// user starts the vs multiplayer game by clicking on the button
+// it is redirected to the game page
+const btnPlay2 = document.querySelector("#initP2");
+const gameScreenP2 = document.querySelector(".game");
+const startScreenP2 = document.querySelector(".start-p2");
+
+btnPlay2.addEventListener("click", function () {
+  gameScreenP2.classList.remove("show");
+  gameScreenP2.classList.add("hide");
+  startScreenP2.classList.remove("hide");
+  startScreenP2.classList.add("show");
+});
+
+// esconder os quadrados
+// verificar a escolha do usuario
+// se o usuario for X, ele inicia o jogo
+// se o usuario for O, Cpu inicia o jogo

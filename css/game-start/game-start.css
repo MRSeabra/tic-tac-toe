@@ -112,17 +112,21 @@
   background: var(--a);
 }
 
-.turn-x {
+.turn-x.hide {
   display: none;
 }
 
-.turn-o {
-  /* display: none; */
+.turn-o.hide {
+  display: none;
 }
 
 .tac-x {
   fill: var(--v);
   /* display: none; */
+}
+
+.tac-x.hide {
+  display: none;
 }
 
 .tac-x:hover {
@@ -131,6 +135,9 @@
 
 .tac-o {
   fill: var(--a);
+}
+
+.tac-o.hide {
   display: none;
 }
 
